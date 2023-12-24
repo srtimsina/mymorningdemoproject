@@ -3,6 +3,3 @@ date
 
 echo "We hve printed date"
 
-df -h
-
-echo "Printing the disk usage"
