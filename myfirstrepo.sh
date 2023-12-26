@@ -6,7 +6,15 @@ echo "This is a newly added line"
 df -h
 echo "Good morning, DevOps!"
 
-if [ -f /var/run/apache2/apache.pid ]; then
-echo "Apache servie is running"
+echo "We are now learning git merge conflicts"
 
-fi
+echo "$$$$$$$$$$$$$$$$$$$$$$$$$$$$"
+
+users=ram shyam
+for user in $users
+do
+
+echo "username is $user"
+useradd $user
+
+done
